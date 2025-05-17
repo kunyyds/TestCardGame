@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\configs">
+      <UniqueIdentifier>{3de6c938-6564-490b-ba57-9aabb6da93bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views">
+      <UniqueIdentifier>{5ff76149-5ce6-4cea-bb2e-685f5fe6833a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\models">
+      <UniqueIdentifier>{a0dac3c2-ad62-4dd7-8047-a90e2607f988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\controllers">
+      <UniqueIdentifier>{7c67073d-8cd2-45a6-b82b-aa2d9eef9aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\managers">
+      <UniqueIdentifier>{d74fefab-b8ef-4789-ba8b-92e1d7d4705a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services">
+      <UniqueIdentifier>{d1114662-a9d4-4a99-9440-f5cfa90904ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModel.h">
+      <Filter>src\models</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelConfig.cpp">
+      <Filter>src\configs</Filter>
+    </ClCompile>
+    <ClCompile Include="CardResConfig.cpp">
+      <Filter>src\configs</Filter>
+    </ClCompile>
+    <ClCompile Include="CardModel.cpp">
+      <Filter>src\models</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModel.cpp">
+      <Filter>src\models</Filter>
+    </ClCompile>
+    <ClCompile Include="CardView.cpp">
+      <Filter>src\views</Filter>
+    </ClCompile>
+    <ClCompile Include="GameView.cpp">
+      <Filter>src\views</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModelGen.cpp">
+      <Filter>src\services</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelConfigLoader.cpp">
+      <Filter>src\configs</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="NewScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MySprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>src\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="CardController.cpp">
+      <Filter>src\controllers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameView.h">
+      <Filter>src\views</Filter>
+    </ClInclude>
+    <ClInclude Include="CardModel.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>src\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModelGen.h">
+      <Filter>src\services</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelConfig.h">
+      <Filter>src\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="CardResConfig.h">
+      <Filter>src\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>src\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelConfigLoader.h">
+      <Filter>src\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameController.h">
+      <Filter>src\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CardView.h">
+      <Filter>src\views</Filter>
+    </ClInclude>
+    <ClInclude Include="MySprite.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="NewScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="SpritePathService.h">
+      <Filter>src\services</Filter>
+    </ClInclude>
+    <ClInclude Include="CardController.h">
+      <Filter>src\controllers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
